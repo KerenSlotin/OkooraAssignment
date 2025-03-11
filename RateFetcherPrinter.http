@@ -1,0 +1,6 @@
+@RateFetcherPrinter_HostAddress = http://localhost:5067
+
+GET {{RateFetcherPrinter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

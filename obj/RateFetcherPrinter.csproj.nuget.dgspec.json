@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/RateFetcherPrinter.csproj": {}
+  },
+  "projects": {
+    "/Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/RateFetcherPrinter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/RateFetcherPrinter.csproj",
+        "projectName": "RateFetcherPrinter",
+        "projectPath": "/Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/RateFetcherPrinter.csproj",
+        "packagesPath": "/Users/kerenslotin/.nuget/packages/",
+        "outputPath": "/Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kerenslotin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
