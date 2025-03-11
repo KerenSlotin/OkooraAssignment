@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RateFetcherPrinter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb80db792994bfe2359d282d22f2279849f98e4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9a52602a007db93da0e5efaef1381f960cf57fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("RateFetcherPrinter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RateFetcherPrinter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
