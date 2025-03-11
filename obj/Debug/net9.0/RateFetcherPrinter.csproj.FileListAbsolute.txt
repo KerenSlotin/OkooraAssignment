@@ -36,3 +36,4 @@
 /Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/obj/Debug/net9.0/ref/RateFetcherPrinter.dll
 /Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/bin/Debug/net9.0/Newtonsoft.Json.dll
 /Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/bin/Debug/net9.0/exchangeRates.json
+/Users/kerenslotin/Desktop/Okoora assignment/OkooraAssignment/RateFetcherPrinter/obj/Debug/net9.0/RateFetcherPrinter.sourcelink.json

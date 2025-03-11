@@ -65,8 +65,6 @@ public class RateFetcherService : IHostedService, IRateFetcherProvider, IAsyncDi
         {
             var fromCurrency = currencyToRate.Key.From;
             var toCurrency = currencyToRate.Key.To;
-            Console.WriteLine(fromCurrency);
-            Console.WriteLine(toCurrency);
             var requestUrl = $"https://api.currencylayer.com/live?access_key={_apiKey}&source={fromCurrency}&currencies={toCurrency}";
             try
             {
@@ -75,7 +73,6 @@ public class RateFetcherService : IHostedService, IRateFetcherProvider, IAsyncDi
                 var jsonResponse = await response.Content.ReadAsStringAsync();
                 var exchangeRateResponse = Newtonsoft.Json.JsonConvert.DeserializeObject<ExchangeRateResponse>(jsonResponse);
                 _ratesForCurrencies[currencyToRate.Key].LastUpdateTime = DateTime.UtcNow;
-                Console.WriteLine(jsonResponse);
                 _ratesForCurrencies[currencyToRate.Key].Rate = exchangeRateResponse!.Quotes![$"{fromCurrency}{toCurrency}"];
             }
             catch(Exception ex)
